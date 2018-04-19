@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="worker.view.control">
+   <center>
+      <Pane prefHeight="400.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="116.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USER ID" />
+            <Text layoutX="104.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASSWORD" />
+            <Button fx:id="showthem" layoutX="426.0" layoutY="296.0" onAction="#showthem" text="Enter" />
+            <Button layoutX="111.0" layoutY="296.0" mnemonicParsing="false" onAction="#finder" text="Create New Accounter" />
+            <TextField fx:id="id" layoutX="196.0" layoutY="106.0" />
+            <PasswordField fx:id="password" layoutX="196.0" layoutY="185.0" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
