@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="parentPane" prefHeight="384.0" prefWidth="612.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.SignupController">
+   <children>
+      <JFXTextField fx:id="name" layoutX="188.0" layoutY="103.0" maxWidth="227.0" minWidth="227.0" prefHeight="31.0" prefWidth="227.0" promptText="Enter Username">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <JFXPasswordField fx:id="password" layoutX="188.0" layoutY="160.0" maxWidth="227.0" minWidth="227.0" prefHeight="31.0" prefWidth="227.0" promptText="Enter Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXPasswordField>
+      <JFXButton fx:id="signup" layoutX="174.0" layoutY="271.0" onAction="#signupAction" prefHeight="34.0" prefWidth="227.0" style="-fx-background-color: #2196f3;" text="Sign Up" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="login" layoutX="503.0" layoutY="28.0" onAction="#loginAction" prefHeight="40.0" prefWidth="79.0" style="-fx-border-color: #a0a2ab;" text="Login" textFill="#a0a2ab">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="email" layoutX="188.0" layoutY="217.0" maxWidth="227.0" minWidth="227.0" prefHeight="31.0" prefWidth="227.0" promptText="Email">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="250.0" layoutY="25.0" prefHeight="23.0" prefWidth="124.0" text="Sign Up Form" textFill="#2196f3">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="23.0" fitWidth="25.0" layoutX="169.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/822018111823686f1d653ca-68d5-4849-8708-343f6b0de0db.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="31.0" layoutX="168.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/lock_512pxGREY.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="23.0" layoutX="169.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/f16a15_dd514fc9dd4b4a91bb61c15efb5a5567_mv2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="progress" fitHeight="40.0" fitWidth="200.0" layoutX="188.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/Progress_bar.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

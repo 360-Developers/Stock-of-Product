@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorpane" prefHeight="508.0" prefWidth="800.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ProductviewController">
+   <children>
+      <TableView fx:id="table" layoutY="48.0" prefHeight="375.0" prefWidth="800.0">
+        <columns>
+          <TableColumn fx:id="column1" minWidth="0.0" prefWidth="160.0" text="Product Name" />
+          <TableColumn fx:id="column2" minWidth="0.0" prefWidth="160.0" text="Count" />
+            <TableColumn fx:id="column3" minWidth="0.0" prefWidth="160.0" text="Price" />
+            <TableColumn fx:id="column4" minWidth="0.0" prefWidth="160.0" text="TypeName" />
+            <TableColumn fx:id="column5" minWidth="0.0" prefWidth="160.0" text="Income" />
+        </columns>
+      </TableView>
+      <Label layoutX="320.0" layoutY="14.0" prefHeight="17.0" prefWidth="161.0" text="Product Information" textFill="#a0a2ab">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <JFXButton fx:id="back" layoutX="32.0" layoutY="12.0" onAction="#goBack" style="-fx-background-color: #151928;" text="Go Back" textFill="#fff9f9" />
+      <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="759.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/Windows-8-kapatma.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="logout" layoutX="758.0" layoutY="12.0" onAction="#logoutAction" prefHeight="27.0" prefWidth="19.0" />
+   </children>
+</AnchorPane>

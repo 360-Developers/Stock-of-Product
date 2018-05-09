@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.SearchpageController">
+   <children>
+      <Label fx:id="name" layoutX="233.0" layoutY="25.0" maxHeight="20.0" maxWidth="100.0" text="label" textFill="#a0a2ab">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="65.0" prefHeight="18.0" prefWidth="39.0" text="Price:" textFill="#a0a2ab">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="103.0" prefHeight="18.0" prefWidth="50.0" text="Count:" textFill="#a0a2ab">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="141.0" prefHeight="18.0" prefWidth="50.0" text="Type: " textFill="#a0a2ab">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="176.0" prefHeight="18.0" prefWidth="56.0" text="Income:" textFill="#a0a2ab">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="price" layoutX="130.0" layoutY="66.0" text="label" textFill="#a0a2ab" />
+      <Label fx:id="count" layoutX="130.0" layoutY="104.0" prefHeight="17.0" prefWidth="56.0" text="label" textFill="#a0a2ab" />
+      <Label fx:id="type" layoutX="130.0" layoutY="142.0" prefHeight="17.0" prefWidth="56.0" text="label" textFill="#a0a2ab" />
+      <Label fx:id="income" layoutX="130.0" layoutY="177.0" prefHeight="17.0" prefWidth="56.0" text="label" textFill="#a0a2ab" />
+      <ImageView fitHeight="30.0" fitWidth="23.0" layoutX="475.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/Windows-8-kapatma.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="logout" layoutX="472.0" layoutY="1.0" onAction="#logoutAction" prefHeight="27.0" prefWidth="23.0" />
+   </children>
+</AnchorPane>
